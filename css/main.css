@@ -1,0 +1,246 @@
+/*****************
+HEADER
+*****************/
+
+.header {
+  background-color: #ae1f58;
+  height: 100px;
+  min-width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.headerlogo {
+  margin-left: 10px;
+  padding: 1em;
+}
+
+.page-nav {
+   font-family: 'Lato', sans-serif;
+   text-transform: uppercase;
+   font-size: 14px;
+   letter-spacing: .15em;
+   font-weight: 600;
+   color: white;
+   float: right;
+   padding: 1em;
+}
+
+.page-nav ol {
+    display: inline-block;
+    padding: 25px 25px 0 10px;
+    color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/***********************
+Pink Section
+************************/
+
+.pinkcontentbox {
+  background-color: #eb1767;
+  width: 100%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.pinkcontenttext {
+  display: block;
+  margin: auto;
+  max-width: 750px;
+  line-height: 1.314;
+}
+
+h1 {
+  color: white;
+  font-size: 2.5em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1.3em;
+
+}
+
+p {
+  color: white;
+  font-size: 20px;
+  letter-spacing: .03em;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.7em;
+}
+
+.second-text-spacing {
+  padding: 2em;
+  line-height: 1.314;
+}
+
+.pinkcontentbox img {
+  padding-top: 8%;
+  padding-bottom: 8%;
+  text-align: center;
+  margin-right: 25%;
+  margin-left: 25%;
+  width: 50%
+}
+
+.pinkcontentbox a {
+  margin-left: 45%;
+}
+
+/***********************
+What is this?
+************************/
+.second-section {
+  background-image: url("http://academy.smashingboxes.com/assets/timeline_bg-c6df24fc8cdea898ad4491ad758fdbe7.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-size: cover;
+}
+
+.second-section-text {
+  padding-top: 15%;
+  padding-bottom: 15%;
+  width: 750px;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+}
+
+/*.second-section-text {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 60%;
+  font-size: 20px;
+  line-height: 1.314;
+  box-sizing: border-box;
+}*/
+
+/*********************
+Timeline
+*********************/
+
+.timeline {
+  background-color: #292627;
+  width: 100%;
+  text-align: center;
+  height: 250px;
+}
+
+.timeline-image img {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.timeline img {
+  background-color: white;
+}
+
+.timeline img:hover {
+  background-color: #db1861;
+  -webkit-transition: background-color .25s linear;
+  transition: background-color .25s linear;
+}
+
+/*********************
+About the Academy
+*********************/
+
+.about-the-academy {
+  display: block;
+  margin: auto;
+  width: 750px;
+  margin-top: 75px;
+
+}
+
+.about-the-academy h1 {
+  color: #4c4c4e;
+}
+
+.about-the-academy p {
+  color: #4c4c4e;
+}
+
+.about-top-section {
+  padding-bottom: 3em;
+}
+
+.about-the-academy a {
+  color: #db1861;
+  font-weight: 700;
+}
+
+.about-the-academy > .verticalLine {
+  border-left: thick solid #ff0000;
+}
+
+.about-the-academy img {
+  img.ri { max-width: 50%; }
+}
+
+
+.mentors h1 {
+  font-size: 1.6em;
+}
+
+.mentorpics {
+  max-width: 800px;
+  max-height: 800px;
+  border-style: solid;
+  border-color: red;
+  padding-top: 3em;
+  display: block;
+}
+
+.mentorpics a {
+  color: #db1861;
+  font-weight: 450;
+  font-size: 1.2em;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.3em;
+  padding-top: 100px;
+}
+
+.mentorpics p {
+  color: #4c4c4e;
+  font-weight: 600;
+  font-size: .8em;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.3em;
+  text-align: center;
+  padding-top: 40px;
+  padding-right: 25px;
+}
+
+.mentorpics img {
+  height: auto;
+  width: auto;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.mentorpics li {
+  display: inline-block;
+  text-align: center;
+}
+
+/*********************
+Apply Today
+*********************/
+
+.apply-today {
+  background-color: #ffffff;
+}
